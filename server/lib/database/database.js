@@ -2,8 +2,8 @@ import Sequelize from "sequelize";
 
 // conexion a la base de datos
 
-export const sequelize = new Sequelize("recetasdb", "postgres", "2607", {
-  host: "localhost",
+export const sequelize = new Sequelize("railway", "postgres", "Ymdvm5cTqtL93A9tfqjJ", {
+  host: "containers-us-west-131.railway.app",
   dialect: "postgres",
-  port: 5432
+  port: 7900
 });
