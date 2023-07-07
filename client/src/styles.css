@@ -4,8 +4,7 @@
 @tailwind utilities;
 
 .fondo {
-  background-image: url("https://img.freepik.com/foto-gratis/comida-ingredientes_1220-4884.jpg?t=st=1688753099~exp=1688753699~hmac=91c4c5c03875ff67b4a05b26fb549278fa22bf86077b2f95cbee042fdb0f6217");
-  background-repeat: no-repeat;
+  background-image: url("https://img.freepik.com/foto-gratis/alas-pollo-crudo-sobre-superficie-madera-blanca_1150-44071.jpg?w=996&t=st=1688753912~exp=1688754512~hmac=63b23dd10a144762a85da32d6de1d1b7aa572a8164daf631b54f621099c77a88");
   background-size: cover;
   background-position: center;
   height: 100vh;
