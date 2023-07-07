@@ -4,7 +4,7 @@ import { Receta } from "../models/Recetas.js";
 export const getRecetas = async (req, res) => {
   console.log("ingreso a getREcetas");
   try {
-    const recetas = await Receta.findAll();
+    const recetas = await Receta.findAll(); //Es equivalente a SELECT * FROM 
     res.json({
       status: true,
       message: "Recetas obtenidas correctamente",
