@@ -4,7 +4,7 @@ import Sequelize from "sequelize";
 
 //<<<<<<< HEAD
 //<<<<<<< HEAD
-export const sequelize = new Sequelize("recetasdb", "postgres", "123", {
+//export const sequelize = new Sequelize("recetasdb", "postgres", "123", {
 //=======
 //export const sequelize = new Sequelize("recetasdb", "postgres", "12345", {
 //=======
@@ -13,7 +13,7 @@ export const sequelize = new Sequelize("recetasdb", "postgres", "123", {
 //>>>>>>> 3d2759131b32ee55563627bff21c70d0c67376c2
 //=======
 
-//export const sequelize = new Sequelize("recetasdb", "postgres", "2607", {
+export const sequelize = new Sequelize("recetasdb", "postgres", "2607", {
 
 
 // conexion a la base de datos
