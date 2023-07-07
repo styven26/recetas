@@ -45,6 +45,19 @@ export class RecetasService {
     })
   }
 
+//********************************************* */
+
+  postReceta(file:any) {
+    console.log('los datos que se envian', file);
+    return this.http.post<any>(this.URL_datosRecetas + file,{
+      withCredentia1s: true,
+    })
+
+  }
+
+//*********************************************** /
+
+
   deleteRecetas(id: number) {
     console.log(id);
     return this.http.delete<any>(

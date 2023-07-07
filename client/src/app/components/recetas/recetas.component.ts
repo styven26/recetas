@@ -202,6 +202,18 @@ export class RecetasComponent implements OnInit {
     });
   }
 
+  //******************************************************** */
+
+
+  insertarReceta(){
+    
+
+
+
+  }
+
+  //**********************************************************/ 
+
   eliminarReceta(idReceta: number) {
     console.log('id de la receta a eliminar: ', idReceta);
     //alert('¿Estás seguro de eliminar la receta?');
